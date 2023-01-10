@@ -24,7 +24,7 @@
 
 
 ## Summary
-使用Mind+V1.7.2及以上版本，在python模式用户库中加载此扩展，在行空板上运行，可实现蓝牙Socket通信。
+使用Mind+V1.7.2及以上版本，在python模式用户库中加载此扩展，在两块行空板上分别运行服务器端和客户端程序，可实现两块行空板之间通过蓝牙进行Socket通信。
 
 ## Blocks
 
@@ -33,12 +33,20 @@
 
 
 ## Examples
+- 示例1：行空板1按钮控制行空板2上的L灯
+    - 服务器端  
+    ![](./python/_images/examples0.png)  
 
-- 服务器端  
-![](./python/_images/examples0.png)  
+    - 客户端  
+    ![](./python/_images/examples1.png)  
 
-- 客户端  
-![](./python/_images/examples1.png)  
+- 示例2：行空板1上的光线数据发送到行空板2屏幕上显示
+
+    - 服务器端  
+    ![](./python/_images/examples3.png)  
+
+    - 客户端  
+    ![](./python/_images/examples4.png)  
 
 
 ## License
