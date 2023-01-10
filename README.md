@@ -48,6 +48,14 @@
     - 客户端  
     ![](./python/_images/examples4.png)  
 
+- 示例3：行空板1上的多个数据发送到行空板2屏幕上显示，使用字典和json
+
+    - 服务器端  
+    ![](./python/_images/examples5.png)  
+
+    - 客户端  
+    ![](./python/_images/examples6.png)  
+
 
 ## License
 
