@@ -1,7 +1,10 @@
 {
 
-    "kerasMLOC.BUTTON.A|menu": "按键A",
-    "kerasMLOC.BUTTON.B|menu": "按键B"
-
+    "bluetoothSocket.startBTServer|block": "启动蓝牙服务器",
+    "bluetoothSocket.serverAvailable|block": "蓝牙服务器 缓存区有数据？",
+    "bluetoothSocket.serverGetData|block": "蓝牙服务器 取缓存数据后清空缓存",
+    "bluetoothSocket.startBTClient|block": "启动蓝牙客户端 连接服务器 地址[MAC]",
+    "bluetoothSocket.saveImage|block": "蓝牙客户端，发送消息[DATA]",
+    "bluetoothSocket.clientClose|block": "关闭蓝牙客户端"
 
 }

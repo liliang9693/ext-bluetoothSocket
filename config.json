@@ -5,7 +5,7 @@
   },
   "description": {
     "zh-cn": "基于pybluez库实现的蓝牙socket通信,适用行空板",
-    "en": "unihiker bluetooth"
+    "en": "Bluetooth socket communication implemented based on the pybluez library, suitable for Unihiker M10"
   },
   "author": "liliang",
   "email": "969316753@qq.com",
@@ -13,7 +13,7 @@
   "isBoard": false,
   "id": "bluetoothSocket",
   "platform": ["win","mac","web","linux"],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "asset": {
 	"python": {
       "dir": "python/",

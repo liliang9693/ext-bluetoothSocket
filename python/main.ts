@@ -4,7 +4,7 @@ namespace bluetoothSocket{
 
 
 
-    //% block="启动蓝牙服务器" blockType="command"
+    //% block="Start Bluetooth server" blockType="command"
     export function startBTServer(parameter: any, block: any) {
 
         Generator.addImport(`import bluetooth\nimport threading\nimport time\nimport os`)
@@ -45,14 +45,14 @@ namespace bluetoothSocket{
 Generator.addCode(`threading.Thread(target=server_loop).start()`)
     }
 
-    //% block="蓝牙服务器 缓存区有数据？" blockType="boolean"
+    //% block="Does the Bluetooth server buffer have data?" blockType="boolean"
     export function serverAvailable(parameter: any, block: any) {
         Generator.addCode(`(len(bt_recv_data)>0)`)
 
 
     }
 
-    //% block="蓝牙服务器 取缓存数据后清空缓存" blockType="reporter"
+    //% block="Bluetooth server retrieves cached data and then clears the cache" blockType="reporter"
     export function serverGetData(parameter: any, block: any) {
         Generator.addCode(`getData()`)
     }
@@ -61,7 +61,7 @@ Generator.addCode(`threading.Thread(target=server_loop).start()`)
 
     }
 
-    //% block="启动蓝牙客户端 连接服务器 地址[MAC]" blockType="command"
+    //% block="Start Bluetooth client and connect to server address [MAC]" blockType="command"
     //% MAC.shadow="string" MAC.defl="00:e0:4c:c7:da:7c"
     export function startBTClient(parameter: any, block: any) {
         let mac=parameter.MAC.code;
@@ -76,7 +76,7 @@ print("${mac2},connected!")
     }
 
 
-    //% block="蓝牙客户端，发送消息[DATA]" blockType="command"
+    //% block="Bluetooth client sends message[DATA]" blockType="command"
     //% DATA.shadow="string" DATA.defl="hello"
     export function saveImage(parameter: any, block: any) {
         let data=parameter.DATA.code;
@@ -86,7 +86,7 @@ print("${mac2},connected!")
  
     }
 
-    //% block="关闭蓝牙客户端" blockType="command"
+    //% block="Close Bluetooth client" blockType="command"
     export function clientClose(parameter: any, block: any) {
  
         Generator.addCode(`client_sock.close()`)

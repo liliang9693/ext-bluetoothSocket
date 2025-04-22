@@ -68,8 +68,9 @@ MCU                | JavaScript    | Arduino   | MicroPython    | Python
 arduino        |             |              |             | 
 micro:bit        |             |              |             | 
 esp32        |             |              |             | 
-unihiker        |             |              |             | √
+unihiker m10       |             |              |             | √
 
 ## Release Logs
 
 * V0.0.1  基础功能完成
+* V0.0.2  增加英文翻译
